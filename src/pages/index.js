@@ -6,10 +6,10 @@ const IndexPage = () => (
     <div className="Header">
       <div className="Logo">DC</div>
       <div className="Nav">
-        <a>HOME</a>
-        <a>WORK</a>
-        <a>PHOTOGRAPHY</a>
-        <a>GET IN TOUCH</a>
+        <Link to="page-2">HOME</Link>
+        <Link to="page-2">WORK</Link>
+        <Link to="page-2">PHOTOGRAPHY</Link>
+        <Link to="page-2">GET IN TOUCH</Link>
       </div>
     </div>
   </div>
