@@ -2,55 +2,105 @@
 
 
 body {
-  margin: 0;
-  padding: 0;
-  font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 0px;
+  font-family: NanumGothicExtraBold,Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 20px;
   -webkit-font-smoothing: antialased;
   line-height: 1.45;
   color: black;
+  width: 974px;
+  margin: 0 auto;
 }
 
 
-.Header{
-  width: 1024px;
-  margin: 88px auto;
-  text-align: center;
-  
+
+
+.Nav {
+  margin: 214px 0px;
 }
 
-a {
-  font-size: 16px;
+.Nav>a {
+  font-size: 17px;
+  color: #191931;
+  line-height: 54px;
+  padding-right: 98px;
   text-decoration: none;
-  font-weight: medium;
-  padding-right: 24px;
 
 }
 
 .Logo {
-  display: inline;
-  font-size: 24px;
-  font-weight: bold;
-  padding: 12px;
+  width: 54px;
+  height: 54px;
+  margin: 162px 0px;
   background: black;
-  color:white;
-  float: left;
 }
 
-.Logo:hover {
-  display: inline;
+
+
+
+
+h1{
+  margin-top: 234px;
+  font-size: 42px;
+  width: 974px;
+  color: #191931;
+  letter-spacing: 0.77px;
+  line-height: 64px;
+}
+
+
+
+
+.Article{
+  margin: 274px 0px 326px;
+  width: 974px;
+}
+
+.Cover{
+  background: #f8f8f8;
+  width: 100%;
+  height: 756px;
+  border-radius: 4px;
+  border: 1px solid rgba(25,25,49,0.02);
+}
+
+
+
+h2{
+  font-family: NanumGothicExtraBold;
   font-size: 24px;
-  font-weight: bold;
-  padding: 12px;
-  color:black;
-  background:white;
-  float: left;
+  color: #27274A;
+  letter-spacing: 0.39px;
+  line-height: 54px;
+  margin-bottom: 52px;
 }
 
-.Nav {
-  display: inline;
-  margin-left: 88px;
-  font:18px;
-  color: black;
-  float: right;
+p{
+  opacity: 0.84;
+  font-family: NanumGothic;
+  font-size: 18px;
+  color: #27274A;
+  text-align: justify;
+  line-height: 40px;
+  margin: 54px 0px;
+}
+
+.Read-More{
+  font-size: 16px;
+  color: #191931;
+  text-align: justify;
+  line-height: 54px;
+  text-decoration: none;;
+}
+
+footer>p{
+  opacity: 0.6;
+  font-family: NanumGothic;
+  font-size: 14px;
+  color: #191931;
+  line-height: 54px;
+}
+
+footer{
+  border-top: 1px solid rgba(25,25,49,0.02);
 }
