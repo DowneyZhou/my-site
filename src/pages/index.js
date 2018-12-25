@@ -1,53 +1,20 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+
 const IndexPage = () => (
 <div>
 
-    <div className="Logo"></div>
-    <div className="Title">
-    <h1> 
-    Hello,I am DowneyChow — a produt designer from China 
-    who focuses on high quality vision and technology solutions to create a good experience for digital products.
-    </h1>
-  </div>
-
-   <div className="Nav">
-       <Link to="page-2">Creation</Link>
-       <Link to="page-2">Contact</Link>
-       <Link to="page-2">PHOTOGRAPHY</Link>
+  <main>
+    <div className="Article"> 
+        <dir className="Cover"></dir>
+        <h2>Forehead Lift Brow Lift Temporal Lift Forhead Rejuvenation</h2>
+        <p>Research in advertising is done in order to produce better advertisements that are more efficient in motivating customers to buy a product or a service. The research can be based on a particular advertising campaign or can be more generalized and based on how advertisements create an effect on people’s mind. Lots of approaches are involved to go about conducting an advertising research like economical, psychological</p>
     </div>
+    
+  </main>
 
-  <div className="Article">
-    <div className="Content">
-      <h2>Santa Clara Santa ClaraSanta Clara</h2>
-      <div className="Cover"></div>
-      <p>I joined the design team at Opendoor in september 2016 to help them operate the first rebrand of the compagny. I helped redesign and code the V2 of the website, refresh the email infrastructure. Since the launch of the brand 2.0 in january 2017.the launch of the brand 2.0 in january 2017.the launch of the brand 2.0 in january 2017.the launch of the brand 2.0 in january 2017.</p>
-      <Link className="Read-More">Read More</Link>
-    </div>
-  </div>
-
-  <div className="Article">
-    <div className="Content">
-      <h2>Santa Clara Santa ClaraSanta Clara</h2>
-      <div className="Cover"></div>
-      <p>I joined the design team at Opendoor in september 2016 to help them operate the first rebrand of the compagny. I helped redesign and code the V2 of the website, refresh the email infrastructure. Since the launch of the brand 2.0 in january 2017.the launch of the brand 2.0 in january 2017.the launch of the brand 2.0 in january 2017.the launch of the brand 2.0 in january 2017.</p>
-      <Link className="Read-More">Read More</Link>
-    </div>
-  </div>
-
-  <div className="Article">
-    <div className="Content">
-      <h2>Santa Clara Santa ClaraSanta Clara</h2>
-      <div className="Cover"></div>
-      <p>I joined the design team at Opendoor in september 2016 to help them operate the first rebrand of the compagny. I helped redesign and code the V2 of the website, refresh the email infrastructure. Since the launch of the brand 2.0 in january 2017.the launch of the brand 2.0 in january 2017.the launch of the brand 2.0 in january 2017.the launch of the brand 2.0 in january 2017.</p>
-      <Link className="Read-More">Read More</Link>
-    </div>
-  </div>
-
-  <footer>
-    <p>© 2018 — DowneyChow sometimes write code.</p>
-  </footer>
+  <footer></footer>
   
 </div>
 )
